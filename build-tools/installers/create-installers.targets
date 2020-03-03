@@ -98,6 +98,7 @@
     <_FrameworkFiles Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\System.EnterpriseServices.dll" />
     <_FrameworkFiles Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\Xamarin.Android.NUnitLite.dll" />
     <_FrameworkFiles Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\Xamarin.Android.NUnitLite.pdb" />
+    <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\Xamarin.Android.NUnitLite.xml" />
     <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(FirstInstallerFrameworkVersion)\OpenTK-1.0.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -404,7 +405,6 @@
     <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\System.Web.Services.xml" />
     <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\System.Xml.xml" />
     <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\System.Xml.Linq.xml" />
-    <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\Xamarin.Android.NUnitLite.xml" />
   </ItemGroup>
   <Target Name="ConstructInstallerItems"
       DependsOnTargets="_FindFrameworkDirs;AssembleApiDocs"
