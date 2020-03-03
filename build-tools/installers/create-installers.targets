@@ -385,10 +385,6 @@
     <_MSBuildFiles Include="$(MSBuildSrcDir)\Xamarin.Installer.Common.targets" />
     <LegacyTargetsFiles Include="$(RootBuildDir)\lib\xamarin.android\xbuild\Novell\Xamarin.Android.Bindings.targets" />
     <LegacyTargetsFiles Include="$(RootBuildDir)\lib\xamarin.android\xbuild\Novell\Xamarin.Android.VisualBasic.targets" />
-    <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\Mono.CompilerServices.SymbolWriter.xml" />
-    <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\Mono.Data.Sqlite.xml" />
-    <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\Mono.Data.Tds.xml" />
-    <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\Mono.Security.xml" />
     <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\mscorlib.xml" />
     <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\System.Core.xml" />
     <_FrameworkFilesWin Include="$(FrameworkSrcDir)\$(BclFrameworkVersion)\System.ComponentModel.Composition.xml" />
